@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #181818;
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+#first__nav__elements {
+  padding-left: 2em;
+  display: flex;
+  align-items: center;
+}
+#second__nav__elements {
+  display: flex;
+  align-items: center;
+}
+#second__nav__elements input {
+  height: 40px;
+  width: 500px;
+  padding: 2px;
+  border: 1px solid #313131;
+  background-color: #121212;
+  color: #d8d8d8;
+}
+
+#second__nav__elements input:focus {
+  border: 1px solid red;
+}
+
+#second__nav__elements .fa-search {
+  background-color: #313131;
+  height: 40px;
+  width: 60px;
+  padding: 8px 20px 8px 20px;
+  margin-right: 20px;
+}
+
+#second__nav__elements .fa-microphone {
+  background-color: #1a1a1a;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+#third__nav__elements {
+  padding-right: 2em;
+  display: flex;
+  align-items: center;
+}
+
+#third__nav__elements > i {
+  margin-right: 1em;
+}
+
+#logo {
+  height: 60px;
+  width: 150px;
+}
+
+#dp {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+}
+
+.fa {
+  color: #fff;
+  font-size: x-large;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+}
+
+section {
+  width: 60%;
+  margin-left: 5%;
+  margin-top: 80px;
+}
+section #video__details button {
+  color: #fff;
+}
+
+section h3 {
+  margin: 10px 0 10px 0;
+}
+section #video__details #right__video__details {
+  margin-left: 23%;
+}
+section #video__details #right__video__details button {
+  font-size: medium;
+}
+section #video__details #right__video__details button i {
+  font-size: medium;
+}
+
+section hr {
+  margin-top: 20px;
+  border: 1px solid #303030;
+}
+
+aside {
+  width: 30%;
+  height: 300px;
+  float: right;
+  margin-right: 5%;
+  padding: 10px;
+}
+
+aside button {
+  color: #fff;
+  background-color: #303030;
+  padding: 10px;
+  border: 1px solid #3e3e3e;
+  border-radius: 13px;
+}
+
+aside #video__suggestions #suggested__videos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+aside #video__suggestions #suggested__videos img {
+  height: 85px;
+  width: 170px;
+  padding-right: 10px;
+}
+
+aside #video__suggestions #suggested__videos #suggested__videos__details span {
+  font-size: smaller;
+  color: #878787;
+}
+aside #video__suggestions #suggested__videos #suggested__videos__details p {
+  color: #878787;
+}
